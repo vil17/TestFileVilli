@@ -1,34 +1,32 @@
+# Prerequisites
+*.d
 
-# Created by https://www.gitignore.io/api/windows,codeblocks
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-### CodeBlocks ###
-# specific to CodeBlocks IDE
-*.layout
-*.depend
+# Precompiled Headers
+*.gch
+*.pch
 
-# generated directories
-bin/
-obj/
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
+# Fortran module files
+*.mod
+*.smod
 
-# Folder config file
-Desktop.ini
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# End of https://www.gitignore.io/api/windows,codeblocks
+# Executables
+*.exe
+*.out
+*.app
